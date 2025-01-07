@@ -9,71 +9,137 @@ A Java-based Student Management System for managing student and teacher informat
 -----------------
 student-management-system/
 │ 
+
 ├─ README.md
+
 ├─ final review.txt
+
 ├─ pom.xml
+
 ├─ schema.sql
+
 ├─ src
+
 │  └─ main
+
 │     ├─ java
+
 │     │  ├─ com
+
 │     │  │  └─ sms
+
 │     │  │     ├─ dao
+
 │     │  │     │  ├─ Autowired.java
+
 │     │  │     │  ├─ DBConnection.java
+
 │     │  │     │  ├─ SpringBootTest.java
+
 │     │  │     │  ├─ SpringRunner.java
+
 │     │  │     │  ├─ StudentDAO.java
+
 │     │  │     │  └─ StudentDAOTest.java
+
 │     │  │     ├─ model
+
 │     │  │     │  └─ Student.java
+
 │     │  │     ├─ service
+
 │     │  │     │  ├─ StudentDAO.java
+
 │     │  │     │  ├─ StudentService.java
+
 │     │  │     │  └─ StudentServiceTest.java
+
 │     │  │     ├─ servlet
+
 │     │  │     │  └─ StudentServlet.java
+
 │     │  │     └─ student_management_system
+
 │     │  │        └─ Main.java
+
 │     │  └─ org
+
 │     │     └─ junit
+
 │     │        └─ Test.java
+
 │     └─ webapp
+
 │        ├─ Attendance.jsp
+
 │        ├─ Collegeinfo.jsp
+
 │        ├─ Feedback.jsp
+
 │        ├─ META-INF
+
 │        │  └─ MANIFEST.MF
+
 │        ├─ Notice.jsp
+
 │        ├─ Reportcard.jsp
+
 │        ├─ Timetable.jsp
+
 │        ├─ WEB-INF
+
 │        │  └─ web.xml
+
 │        ├─ admitcard.jsp
+
 │        ├─ courses.jsp
+
 │        ├─ css
+
 │        │  └─ style.css
+
 │        ├─ dashboard.jsp
+
 │        ├─ fees.jsp
+
 │        ├─ index.jsp
+
 │        ├─ js
+
 │        │  └─ script.js
+
 │        ├─ login.jsp
+
 │        ├─ performance.jsp
+
 │        ├─ profile.webp
+
 │        └─ student-management-system.png
+
 └─ target
+
    └─ classes
+   
        └─ com
+       
            └─ sms
+           
                ├─ dao
+               
                │  ├─ DBConnection.class
+               
                │  └─ StudentDAO.class
+               
                ├─ model
+               
                │  └─ Student.class
+               
                ├─ servlet
+               
                │  └─ StudentServlet.class
+               
                └─ student_management_system
+               
                     └─ Main.class
 
      

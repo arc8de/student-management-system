@@ -201,12 +201,12 @@ Step 1: Clone the Repository
    2. Clone the repository.
    3. Navigate to the project directory.
 
-Step 2: Import Files in VSCode.
-   1. Open VSCode.
+Step 2: Import Files in Eclipse.
+   1. Open Eclipse.
    2. Go to File > Import....
    3. Browse to the directory where you cloned the project and select it.
    4. CLick on Import.
-   5. Run the file by opening the Index.html file in Browser.
+   5. Run the file by running it on Tomcat Server.
 
 Step 3: Accessing The Student Management System.
    - Username: admin
@@ -214,13 +214,6 @@ Step 3: Accessing The Student Management System.
    1. Once entering the default username and password user will be redirected to the Dashboard.
    2. Once in Dashboard user can access all the features of student management system.
 
-
-Features
---------
-- Add new students
-- Add new teachers
-- Retrieve all students
-- Retrieve all teachers
 
 Features in WebApp
 --------

@@ -1,31 +1,31 @@
 Step 1: Code Quality
 
-	Check for code duplication, unnecessary complexity, and adherence to coding standards.
+	- Check for code duplication, unnecessary complexity, and adherence to coding standards.
 
-	Ensure that the code is well-commented and readable.
+	- Ensure that the code is well-commented and readable.
 
-	Use a code formatter to maintain consistent code style.
+	- Use a code formatter to maintain consistent code style.
 
 Step 2: Code Coverage
 
-	Run the unit tests and check the code coverage using a tool like Junit.
+	- Run the unit tests and check the code coverage using a tool like Junit.
 
-	Aim for at least 70% code coverage for the service and DAO layers.
+	- Aim for at least 70% code coverage for the service and DAO layers.
 
 Step 3: Dependency Management
 
-	Review the pom.xml file to ensure that all dependencies are correctly managed.
+	- Review the pom.xml file to ensure that all dependencies are correctly managed.
 
-	Remove any unused dependencies and update outdated ones.
+	- Remove any unused dependencies and update outdated ones.
 
 Step 4: Security Review
 
-	Check for any potential security vulnerabilities (e.g., SQL injection, XSS).
+	- Check for any potential security vulnerabilities (e.g., SQL injection, XSS).
 
-	Ensure that user inputs are properly validated and sanitized.
+	- Ensure that user inputs are properly validated and sanitized.
 
 Step 5: Performance Optimization
 
-	Identify any performance bottlenecks in the code.
+	- Identify any performance bottlenecks in the code.
 
-	Optimize database queries and reduce unnecessary computations.
+	- Optimize database queries and reduce unnecessary computations.

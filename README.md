@@ -24,49 +24,49 @@ student-management-system/
 
 │     ├─ java
 
-│     │  ├─ com
+│     │   ├─ com
 
-│     │  │  └─ sms
+│     │   │  └─ sms
 
-│     │  │     ├─ dao
+│     │   │     ├─ dao
 
-│     │  │     │  ├─ Autowired.java
+│     │   │     │  ├─ Autowired.java
 
-│     │  │     │  ├─ DBConnection.java
+│     │   │     │  ├─ DBConnection.java
 
-│     │  │     │  ├─ SpringBootTest.java
+│     │   │     │  ├─ SpringBootTest.java
 
-│     │  │     │  ├─ SpringRunner.java
+│     │   │     │  ├─ SpringRunner.java
 
-│     │  │     │  ├─ StudentDAO.java
+│     │   │     │  ├─ StudentDAO.java
 
-│     │  │     │  └─ StudentDAOTest.java
+│     │   │     │  └─ StudentDAOTest.java
 
-│     │  │     ├─ model
+│     │   │     ├─ model
 
-│     │  │     │  └─ Student.java
+│     │   │     │  └─ Student.java
 
-│     │  │     ├─ service
+│     │   │     ├─ service
 
-│     │  │     │  ├─ StudentDAO.java
+│     │   │     │  ├─ StudentDAO.java
 
-│     │  │     │  ├─ StudentService.java
+│     │   │     │  ├─ StudentService.java
 
-│     │  │     │  └─ StudentServiceTest.java
+│     │   │     │  └─ StudentServiceTest.java
 
-│     │  │     ├─ servlet
+│     │   │     ├─ servlet
 
-│     │  │     │  └─ StudentServlet.java
+│     │   │     │  └─ StudentServlet.java
 
-│     │  │     └─ student_management_system
+│     │   │     └─ student_management_system
 
-│     │  │        └─ Main.java
+│     │   │        └─ Main.java
 
-│     │  └─ org
+│     │   └─ org
 
-│     │     └─ junit
+│     │       └─ junit
 
-│     │        └─ Test.java
+│     │           └─ Test.java
 
 │     └─ webapp
 

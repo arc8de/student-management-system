@@ -44,4 +44,24 @@ public class StudentDAO {
         }
         return students;
     }
+
+	public Object getStudentById(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void save(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void update(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
 }

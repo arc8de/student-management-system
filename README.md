@@ -19,56 +19,61 @@ student-management-system/
 
 ├─ schema.sql
 
-└─ src
+├─ src
 
-  └─ main
+│  └─ main
 
-     └─ java
+│     └─ java
 
-     │  └─ com
+│       └─ com
 
-     │    └─ sms
+│          └─ sms
 
-     │        ├─ dao
+│             ├─ dao
 
-     │        │  ├─ DBConnection.java
+│             │  ├─ DBConnection.java
 
-     │        │  └─ StudentDAO.java
+│             │  ├─ StudentDAO.java
 
-    │        └─ model
+│             │  └─ TeacherDAO.java
 
-   │           └─ Student.java
+│             ├─ model
 
-   │
-   └─ webapp
+│             │  ├─ Student.java
 
-   │  └─ WEB-INF
-      
-   │       └─ web.xml 
+│             │  └─ Teacher.java
 
-   ├─ Attendance.jsp
+│             └─ student_management_system
+
+│                └─ Main.java
+
+│      
+
+└─ web
+
+   ├─ Attendance.html
    
-   ├─ Collegeinfo.jsp
+   ├─ Collegeinfo.html
    
-   ├─ Feedback.jsp
+   ├─ Feedback.html
    
-   ├─ Notice.jsp
+   ├─ Notice.html
    
-   ├─ Reportcard.jsp
+   ├─ Reportcard.html
    
-   ├─ Timetable.jsp
+   ├─ Timetable.html
    
-   ├─ admitcard.jsp
+   ├─ admitcard.html
    
-   ├─ courses.jsp
+   ├─ courses.html
    
-   ├─ dashboard.jsp
+   ├─ dashboard.html
    
-   ├─ fees.jsp
+   ├─ fees.html
    
-   ├─ index.jsp
+   ├─ index.html
    
-   ├─ performance.jsp
+   ├─ performance.html
    
    ├─ profile.webp   
    
@@ -85,7 +90,6 @@ student-management-system/
    ├─ css
    
      └─ styles.css
-
 
      
 -------------
@@ -146,12 +150,12 @@ Step 1: Clone the Repository
    2. Clone the repository.
    3. Navigate to the project directory.
 
-Step 2: Import Files in Eclipse.
-   1. Open Eclipse.
+Step 2: Import Files in VSCode.
+   1. Open VSCode.
    2. Go to File > Import....
    3. Browse to the directory where you cloned the project and select it.
    4. CLick on Import.
-   5. Run the file by running it on Tomcat server.
+   5. Run the file by opening the Index.html file in Browser.
 
 Step 3: Accessing The Student Management System.
    - Username: admin
@@ -191,7 +195,8 @@ Students Table Columns:
 - admission_no
 - course
 - passwd
-  
+
+
 Troubleshooting
 ---------------
 - Ensure MySQL server is running
